@@ -145,10 +145,10 @@ require "config/config.php";
                                         </tr>
                                         <tr>
                                             <td>1</td>
-                                            <td>Ednei</td>
-                                            <td>edneifneto@gmail.com</td>
-                                            <td>edneifneto</td>
-                                            <td>BaitaPlay</td>
+                                            <td>Jose</td>
+                                            <td>jose@gmail.com</td>
+                                            <td>joseff</td>
+                                            <td>WatchESPN</td>
                                             <td>
                                                 <button class="btn btn-sm btn-danger btn-block" data-toggle="modal" data-target="#deleteModal">
                                                     Inativo

@@ -59,6 +59,16 @@ require "config/config.php";
                                             <input type="text" class="form-control" placeholder="Digite o preco">
                                         </div>
 
+                                        <div class="form-group col-sm-6">
+                                            <label for="exampleInputEmail1">Login</label>
+                                            <input type="text" class="form-control" placeholder="Digite o login">
+                                        </div>
+
+                                        <div class="form-group col-sm-6">
+                                            <label for="exampleInputEmail1">Senha</label>
+                                            <input type="text" class="form-control" placeholder="Digite o senha">
+                                        </div>
+
                                         <div class="form-group col-sm-12">
                                             <button type="submit" class="btn btn-primary">
                                             <i class='far fa-send' style='font-size:16px'></i> Cadastrar</button>
@@ -83,6 +93,7 @@ require "config/config.php";
                                     <thead class="thead-dark pt-2">
                                         <tr>
                                             <th>ID</th>
+                                            <th>Login</th>
                                             <th>Name</th>
                                             <th>Preço</th>
                                             <th></th>
@@ -93,6 +104,7 @@ require "config/config.php";
                                         <tr>
                                             <td>1</td>
                                             <td>BaitaPlay</td>
+                                            <td>baitaplay</td>
                                             <td>R$ 14,90</td>
                                             <td>
                                                 <button class="btn btn-sm btn-danger" data-toggle="modal" data-target="#deleteServicoModal">
